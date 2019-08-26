@@ -4,15 +4,12 @@
 @mixin images {
     display: block;
     margin-top: 40px;
-    max-width: none;
-    min-width: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
 }
 
 .container_content {
     @include es_global;
 }
-.pc{
+.img{
     @include images;
 }

@@ -1,15 +1,18 @@
 @import 'src/styles-variables';
 @import 'src/styles';
 
-
-.container_content {
-    @include es_global;
-}
-.pc{
+@mixin images {
     display: block;
     margin-top: 40px;
     max-width: none;
     min-width: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.container_content {
+    @include es_global;
+}
+.pc{
+    @include images;
 }

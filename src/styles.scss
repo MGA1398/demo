@@ -8,11 +8,20 @@
 
 $primary: #FA0A80;
 $bodyc: #3B3F48;
+$primary_font_fam: 'Montserrat', 'sans-serif';
 
-body{
-    color:$bodyc;
-    font-family: 'Montserrat', 'sans-serif';
+@mixin es_global {
+    color: $bodyc;
+    text-align: center;
+    font-family: $primary_font_fam;
     font-size: 15px;
+    margin-top: 50px;
+    margin-left: 30px auto;
+    margin-right: 30px auto;
+    
+}
+body{
+    @include es_global;
 
 }
 
@@ -31,7 +40,7 @@ header{
         color: white;
         text-decoration: none;
         font-weight: 400;
-        font-family: 'Montserrat', 'sans-serif';
+        font-family: $primary_font_fam;
         font-size: 15px;
 
         &:hover{
@@ -45,7 +54,7 @@ header{
 
     .title{
         text-align: center;
-        font-family: 'Montserrat', 'sans-serif';
+        font-family: $primary_font_fam;
         font-size: 15px;
     }
 }

@@ -9,12 +9,13 @@
 $primary: #FA0A80;
 $bodyc: #3B3F48;
 $primary_font_fam: 'Montserrat', 'sans-serif';
+$primary_font_size: 15px;
 
 @mixin es_global {
     color: $bodyc;
     text-align: center;
     font-family: $primary_font_fam;
-    font-size: 15px;
+    font-size: $primary_font_size;
     margin-top: 50px;
     margin-left: 30px auto;
     margin-right: 30px auto;
@@ -41,7 +42,7 @@ header{
         text-decoration: none;
         font-weight: 400;
         font-family: $primary_font_fam;
-        font-size: 15px;
+        font-size: $primary_font_size;
 
         &:hover{
             color: white;
@@ -55,6 +56,6 @@ header{
     .title{
         text-align: center;
         font-family: $primary_font_fam;
-        font-size: 15px;
+        font-size: $primary_font_size;
     }
 }

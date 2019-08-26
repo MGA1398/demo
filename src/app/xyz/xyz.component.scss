@@ -1,0 +1,19 @@
+@import 'src/styles-variables';
+
+body {
+    text-align: center;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 30px auto;
+    margin-right: 30px auto;
+
+    .pc{
+        display: block;
+        margin-top: 40px;
+        max-width: none;
+        min-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

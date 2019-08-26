@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "styles-variables";
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid'; 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+$primary: #FA0A80;
+$bodyc: #3B3F48;
+
+body{
+    color: #3B3F48;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 15px;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0% auto;
+
+}
+
+header{
+    background: $primary;
+    padding: 1em 0;
+    align-content: flex-end;
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 15px;
+
+        &:hover{
+            color: white;
+            text-decoration: none;
+        }
+        .arrow{
+            width: 20px;
+        }
+    }
+
+    .title{
+        text-align: center;
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 15px;
+    }
+}
